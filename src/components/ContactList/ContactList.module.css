@@ -1,4 +1,5 @@
 ul {
+  width: 400px;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -28,12 +29,12 @@ li > button {
   border: none;
   box-shadow: 0 0 2px #333;
   cursor: pointer;
-  background-color: rgba(178, 146, 171, 0.742);
+  background-color: rgba(48, 188, 71, 0.742);
   border-radius: 5px;
   transition-duration: 400ms;
 }
 
 li > button:hover {
   transform: scale(1.1);
-  background-color: rgba(255, 0, 0, 0.2);
+  background-color: rgba(211, 13, 13, 0.5);
 }

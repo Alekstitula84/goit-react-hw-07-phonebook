@@ -1,10 +1,10 @@
 import './ContactList.module.css';
 import { useSelector } from 'react-redux';
-import { getFilter } from '../../redux/filterSlice';
+import { getFilter } from '../redux/filterSlice';
 import {
     useGetContactsQuery,
     useDeleteContactMutation,
-} from '../../redux/contactsSlice';
+} from '../redux/contactsSlice';
 
 export const ContactList = () => {
     const filter = useSelector(getFilter);
