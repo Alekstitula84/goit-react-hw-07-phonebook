@@ -4,7 +4,7 @@ import { getFilter } from '../redux/filterSlice';
 import {
     useGetContactsQuery,
     useDeleteContactMutation,
-} from '../redux/contactsSlice';
+} from '../redux/contactsApi';
 
 export const ContactList = () => {
     const filter = useSelector(getFilter);
